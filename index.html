@@ -4,10 +4,18 @@
     img{
       width:100px;
     }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fill,minmax(100px,1fr));
+    }
   </style>
-  <img src='greco.jpg'>
-  <img src='charlie.png'>
-  <img src='tocino.jpg'>
+
+  <div class='grid'>
+    <img src='greco.jpg'>
+    <img src='charlie.png'>
+    <img src='tocino.jpg'>
+    <img src='tortu.jpg'>
+  </div>
 </body>
   
 </html>
